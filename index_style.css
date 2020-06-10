@@ -1,0 +1,76 @@
+.container {
+  text-align: center;
+  padding: 120px 0;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.leftNav {
+  float: left;
+  color: gray;
+}
+
+.rightNav {
+  float: right;
+  color: black;
+}
+
+.footer {
+  background-color: lightgray;
+  border: 1px solid gray;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: block;
+}
+
+.leftFooter {
+  float: left;
+  color: gray;
+}
+
+.rightFooter {
+  float: right;
+  color: gray;
+}
+
+.main {
+  display: inline-block;
+}
+
+.main button {
+  border: none;
+  background-color: whitesmoke;
+  color: gray;
+  border-radius: 4px;
+  width: 25%;
+  padding: 12px;
+  margin: 10px;
+}
+
+#logo {
+  height: 50%;
+  width: 50%;
+  padding: 20px;
+}
+
+#searchBar {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  border-radius: 24px;
+  width: 100%;
+  padding: 12px;
+}
